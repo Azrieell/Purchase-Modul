@@ -1,11 +1,11 @@
 <template>
-  <div class="layout-container">
-    <div class="sidebar">
+  <div class="flex h-screen">
+    <aside class="flex flex-col w-64 h-screen px-5">
       <AdminNavigation />
-    </div>
-    <div class="main-content">
+    </aside>
+    <main class="flex-1 p-6 overflow-y-auto bg-neutral-900">
       <router-view />
-    </div>
+    </main>
   </div>
 </template>
 

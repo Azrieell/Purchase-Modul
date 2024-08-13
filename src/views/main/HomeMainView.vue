@@ -35,9 +35,12 @@
 </script>
 
 <style>
+ 
   @tailwind base;
   @tailwind components;
   @tailwind utilities;
+
+  
 
   body.main-page {
     background: #3399ff;
