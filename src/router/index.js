@@ -22,18 +22,16 @@ const routes = [{
     }, ],
   },
   {
-    path: "/admin",
+    path: "/admin/dashboard",
     component: AdminLayouts,
-    children: [
-      {
-        path: "dashboard",
-        name: "DashboardAdmin",
-        component: DashboardAdmin,
-        meta: {
-          title: "Dashboard Admin", 
-        },
+    children: [{
+      path: "/admin/dashboard",
+      name: "DashboardAdmin",
+      component: DashboardAdmin,
+      meta: {
+        title: "Dashboard Admin",
       },
-    ],
+    }, ],
   },
 ];
 
