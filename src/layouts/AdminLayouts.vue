@@ -3,7 +3,7 @@
     <aside class="flex flex-col w-64 h-screen px-5">
       <AdminNavigation />
     </aside>
-    <main class="flex-1 p-6 overflow-y-auto bg-neutral-900">
+    <main class="flex-1 p-6 overflow-y-auto bg-gray-50">
       <router-view />
     </main>
   </div>

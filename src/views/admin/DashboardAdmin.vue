@@ -1,15 +1,13 @@
 <template>
-  <p id="my-project" class="container mx-auto px-4 text-4xl font-bold text-white mb-2 mt-1"
+  <!-- <p id="my-project" class="container mx-auto px-4 text-2xl font-bold text-black mb-2 mt-"
     style="font-family: 'Montserrat', sans-serif;">Manage Purchase
-  </p>
-  <p class="container mx-auto px-4 text-base text-gray-400" style="font-family: 'Montserrat', sans-serif;">Track your
-    purchase</p>
+  </p> -->
 
-  <div class="ml-auto">
-    <div class="px-6 pt-6 2xl:container">
+  <div class="ml-auto mt-16">
+    <div class="px-8 pt-8 2xl:container">
       <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
         <div class="md:col-span-2 lg:col-span-1">
-          <div class="h-full py-8 px-6 space-y-6 rounded-xl bg-neutral-800">
+          <div class="py-5 px-1 space-y-6 rounded-xl bg-blue-500">
             <svg class="w-40 m-auto opacity-75" viewBox="0 0 146 146" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M73.1866 5.7129C81.999 5.7129 90.725 7.44863 98.8666 10.821C107.008 14.1933 114.406 19.1363 120.637 25.3675C126.868 31.5988 131.811 38.9964 135.184 47.138C138.556 55.2796 140.292 64.0057 140.292 72.818C140.292 81.6304 138.556 90.3565 135.184 98.4981C131.811 106.64 126.868 114.037 120.637 120.269C114.406 126.5 107.008 131.443 98.8666 134.815C90.725 138.187 81.999 139.923 73.1866 139.923C64.3742 139.923 55.6481 138.187 47.5066 134.815C39.365 131.443 31.9674 126.5 25.7361 120.269C19.5048 114.037 14.5619 106.64 11.1895 98.4981C7.81717 90.3565 6.08144 81.6304 6.08144 72.818C6.08144 64.0057 7.81717 55.2796 11.1895 47.138C14.5619 38.9964 19.5048 31.5988 25.7361 25.3675C31.9674 19.1363 39.365 14.1933 47.5066 10.821C55.6481 7.44863 64.3742 5.7129 73.1866 5.7129L73.1866 5.7129Z"
@@ -66,82 +64,11 @@
                   <span>2%</span>
                 </div>
               </div>
-              <span class="block text-center text-white">Compared to last week $13,988</span>
             </div>
-            <table class="w-full text-white">
-              <tbody>
-                <tr>
-                  <td class="py-2">Tailored ui</td>
-                  <td class="text-white">896</td>
-                  <td>
-                    <svg class="w-16 ml-auto" viewBox="0 0 68 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <rect opacity="0.4" width="17" height="21" rx="1" fill="#e4e4f2" />
-                      <rect opacity="0.4" x="19" width="14" height="21" rx="1" fill="#e4e4f2" />
-                      <rect opacity="0.4" x="35" width="14" height="21" rx="1" fill="#e4e4f2" />
-                      <rect opacity="0.4" x="51" width="17" height="21" rx="1" fill="#e4e4f2" />
-                      <path
-                        d="M0 7C8.62687 7 7.61194 16 17.7612 16C27.9104 16 25.3731 9 34 9C42.6269 9 44.5157 5 51.2537 5C57.7936 5 59.3731 14.5 68 14.5"
-                        stroke="url(#paint0_linear_622:13631)" stroke-width="2" stroke-linejoin="round" />
-                      <defs>
-                        <linearGradient id="paint0_linear_622:13631" x1="68" y1="7.74997" x2="1.69701" y2="8.10029"
-                          gradientUnits="userSpaceOnUse">
-                          <stop stop-color="#E323FF" />
-                          <stop offset="1" stop-color="#7517F8" />
-                        </linearGradient>
-                      </defs>
-                    </svg>
-                  </td>
-                </tr>
-                <tr>
-                  <td class="py-2">Customize</td>
-                  <td class="text-white">1200</td>
-                  <td>
-                    <svg class="w-16 ml-auto" viewBox="0 0 68 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <rect opacity="0.4" width="17" height="21" rx="1" fill="#e4e4f2" />
-                      <rect opacity="0.4" x="19" width="14" height="21" rx="1" fill="#e4e4f2" />
-                      <rect opacity="0.4" x="35" width="14" height="21" rx="1" fill="#e4e4f2" />
-                      <rect opacity="0.4" x="51" width="17" height="21" rx="1" fill="#e4e4f2" />
-                      <path
-                        d="M0 12.929C8.69077 12.929 7.66833 9.47584 17.8928 9.47584C28.1172 9.47584 25.5611 15.9524 34.2519 15.9524C42.9426 15.9524 44.8455 10.929 51.6334 10.929C58.2217 10.929 59.3092 5 68 5"
-                        stroke="url(#paint0_linear_622:13640)" stroke-width="2" stroke-linejoin="round" />
-                      <defs>
-                        <linearGradient id="paint0_linear_622:13640" x1="34" y1="5" x2="34" y2="15.9524"
-                          gradientUnits="userSpaceOnUse">
-                          <stop stop-color="#8AFF6C" />
-                          <stop offset="1" stop-color="#02C751" />
-                        </linearGradient>
-                      </defs>
-                    </svg>
-                  </td>
-                </tr>
-                <tr>
-                  <td class="py-2">Other</td>
-                  <td class="text-white">12</td>
-                  <td>
-                    <svg class="w-16 ml-auto" viewBox="0 0 68 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <rect opacity="0.4" width="17" height="21" rx="1" fill="#e4e4f2" />
-                      <rect opacity="0.4" x="19" width="14" height="21" rx="1" fill="#e4e4f2" />
-                      <rect opacity="0.4" x="35" width="14" height="21" rx="1" fill="#e4e4f2" />
-                      <rect opacity="0.4" x="51" width="17" height="21" rx="1" fill="#e4e4f2" />
-                      <path
-                        d="M0 6C8.62687 6 6.85075 12.75 17 12.75C27.1493 12.75 25.3731 9 34 9C42.6269 9 42.262 13.875 49 13.875C55.5398 13.875 58.3731 6 67 6"
-                        stroke="url(#paint0_linear_622:13649)" stroke-width="2" stroke-linejoin="round" />
-                      <defs>
-                        <linearGradient id="paint0_linear_622:13649" x1="67" y1="7.96873" x2="1.67368" y2="8.44377"
-                          gradientUnits="userSpaceOnUse">
-                          <stop stop-color="#FFD422" />
-                          <stop offset="1" stop-color="#FF7D05" />
-                        </linearGradient>
-                      </defs>
-                    </svg>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
           </div>
         </div>
         <div>
-          <div class="h-full py-6 px-6 rounded-xl bg-neutral-800">
+          <div class="h-auto py-6 px-6 rounded-xl bg-blue-500">
             <h5 class="text-xl text-white">Downloads</h5>
             <div class="my-8">
               <h1 class="text-5xl font-bold text-white">64,5%</h1>
@@ -167,58 +94,10 @@
                 </linearGradient>
               </defs>
             </svg>
-            <table class="mt-6 -mb-2 w-full text-white">
-              <tbody>
-                <tr>
-                  <td class="py-2">From new users</td>
-                  <td class="text-white">896</td>
-                  <td>
-                    <svg class="w-16 ml-auto" viewBox="0 0 68 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <rect opacity="0.4" width="17" height="21" rx="1" fill="#e4e4f2" />
-                      <rect opacity="0.4" x="19" width="14" height="21" rx="1" fill="#e4e4f2" />
-                      <rect opacity="0.4" x="35" width="14" height="21" rx="1" fill="#e4e4f2" />
-                      <rect opacity="0.4" x="51" width="17" height="21" rx="1" fill="#e4e4f2" />
-                      <path
-                        d="M0 7C8.62687 7 7.61194 16 17.7612 16C27.9104 16 25.3731 9 34 9C42.6269 9 44.5157 5 51.2537 5C57.7936 5 59.3731 14.5 68 14.5"
-                        stroke="url(#paint0_linear_622:13631)" stroke-width="2" stroke-linejoin="round" />
-                      <defs>
-                        <linearGradient id="paint0_linear_622:13631" x1="68" y1="7.74997" x2="1.69701" y2="8.10029"
-                          gradientUnits="userSpaceOnUse">
-                          <stop stop-color="#E323FF" />
-                          <stop offset="1" stop-color="#7517F8" />
-                        </linearGradient>
-                      </defs>
-                    </svg>
-                  </td>
-                </tr>
-                <tr>
-                  <td class="py-2">From old users</td>
-                  <td class="text-white">1200</td>
-                  <td>
-                    <svg class="w-16 ml-auto" viewBox="0 0 68 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <rect opacity="0.4" width="17" height="21" rx="1" fill="#e4e4f2" />
-                      <rect opacity="0.4" x="19" width="14" height="21" rx="1" fill="#e4e4f2" />
-                      <rect opacity="0.4" x="35" width="14" height="21" rx="1" fill="#e4e4f2" />
-                      <rect opacity="0.4" x="51" width="17" height="21" rx="1" fill="#e4e4f2" />
-                      <path
-                        d="M0 12.929C8.69077 12.929 7.66833 9.47584 17.8928 9.47584C28.1172 9.47584 25.5611 15.9524 34.2519 15.9524C42.9426 15.9524 44.8455 10.929 51.6334 10.929C58.2217 10.929 59.3092 5 68 5"
-                        stroke="url(#paint0_linear_622:13640)" stroke-width="2" stroke-linejoin="round" />
-                      <defs>
-                        <linearGradient id="paint0_linear_622:13640" x1="34" y1="5" x2="34" y2="15.9524"
-                          gradientUnits="userSpaceOnUse">
-                          <stop stop-color="#8AFF6C" />
-                          <stop offset="1" stop-color="#02C751" />
-                        </linearGradient>
-                      </defs>
-                    </svg>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
           </div>
         </div>
         <div>
-          <div class="lg:h-full py-8 px-6 text-white rounded-xl bg-neutral-800">
+          <div class="lg:h-full py-5 px-6 text-white rounded-xl bg-blue-500">
             <svg class="w-40 m-auto" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M27.9985 2.84071C31.2849 2.84071 34.539 3.488 37.5752 4.74562C40.6113 6.00324 43.3701 7.84657 45.6938 10.1703C48.0176 12.4941 49.861 15.2529 51.1186 18.289C52.3762 21.3252 53.0235 24.5793 53.0235 27.8657C53.0235 31.152 52.3762 34.4061 51.1186 37.4423C49.861 40.4785 48.0176 43.2372 45.6938 45.561C43.3701 47.8848 40.6113 49.7281 37.5752 50.9857C34.539 52.2433 31.2849 52.8906 27.9985 52.8906C24.7122 52.8906 21.4581 52.2433 18.4219 50.9857C15.3857 49.7281 12.627 47.8848 10.3032 45.561C7.97943 43.2372 6.1361 40.4785 4.87848 37.4423C3.62086 34.4061 2.97357 31.152 2.97357 27.8657C2.97357 24.5793 3.62086 21.3252 4.87848 18.289C6.13611 15.2529 7.97943 12.4941 10.3032 10.1703C12.627 7.84656 15.3857 6.00324 18.4219 4.74562C21.4581 3.488 24.7122 2.84071 27.9985 2.84071L27.9985 2.84071Z"
@@ -254,78 +133,7 @@
                   <span>2%</span>
                 </div>
               </div>
-              <span class="block text-center text-white">Compared to last week 13</span>
             </div>
-            <table class="mt-6 -mb-2 w-full text-white">
-              <tbody>
-                <tr>
-                  <td class="py-2">Tailored ui</td>
-                  <td class="text-white">896</td>
-                  <td>
-                    <svg class="w-16 ml-auto" viewBox="0 0 68 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <rect opacity="0.4" width="17" height="21" rx="1" fill="#e4e4f2" />
-                      <rect opacity="0.4" x="19" width="14" height="21" rx="1" fill="#e4e4f2" />
-                      <rect opacity="0.4" x="35" width="14" height="21" rx="1" fill="#e4e4f2" />
-                      <rect opacity="0.4" x="51" width="17" height="21" rx="1" fill="#e4e4f2" />
-                      <path
-                        d="M0 7C8.62687 7 7.61194 16 17.7612 16C27.9104 16 25.3731 9 34 9C42.6269 9 44.5157 5 51.2537 5C57.7936 5 59.3731 14.5 68 14.5"
-                        stroke="url(#paint0_linear_622:13631)" stroke-width="2" stroke-linejoin="round" />
-                      <defs>
-                        <linearGradient id="paint0_linear_622:13631" x1="68" y1="7.74997" x2="1.69701" y2="8.10029"
-                          gradientUnits="userSpaceOnUse">
-                          <stop stop-color="#E323FF" />
-                          <stop offset="1" stop-color="#7517F8" />
-                        </linearGradient>
-                      </defs>
-                    </svg>
-                  </td>
-                </tr>
-                <tr>
-                  <td class="py-2">Customize</td>
-                  <td class="text-white">1200</td>
-                  <td>
-                    <svg class="w-16 ml-auto" viewBox="0 0 68 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <rect opacity="0.4" width="17" height="21" rx="1" fill="#e4e4f2" />
-                      <rect opacity="0.4" x="19" width="14" height="21" rx="1" fill="#e4e4f2" />
-                      <rect opacity="0.4" x="35" width="14" height="21" rx="1" fill="#e4e4f2" />
-                      <rect opacity="0.4" x="51" width="17" height="21" rx="1" fill="#e4e4f2" />
-                      <path
-                        d="M0 12.929C8.69077 12.929 7.66833 9.47584 17.8928 9.47584C28.1172 9.47584 25.5611 15.9524 34.2519 15.9524C42.9426 15.9524 44.8455 10.929 51.6334 10.929C58.2217 10.929 59.3092 5 68 5"
-                        stroke="url(#paint0_linear_622:13640)" stroke-width="2" stroke-linejoin="round" />
-                      <defs>
-                        <linearGradient id="paint0_linear_622:13640" x1="34" y1="5" x2="34" y2="15.9524"
-                          gradientUnits="userSpaceOnUse">
-                          <stop stop-color="#8AFF6C" />
-                          <stop offset="1" stop-color="#02C751" />
-                        </linearGradient>
-                      </defs>
-                    </svg>
-                  </td>
-                </tr>
-                <tr>
-                  <td class="py-2">Other</td>
-                  <td class="text-white">12</td>
-                  <td>
-                    <svg class="w-16 ml-auto" viewBox="0 0 68 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <rect opacity="0.4" width="17" height="21" rx="1" fill="#e4e4f2" />
-                      <rect opacity="0.4" x="19" width="14" height="21" rx="1" fill="#e4e4f2" />
-                      <rect opacity="0.4" x="35" width="14" height="21" rx="1" fill="#e4e4f2" />
-                      <rect opacity="0.4" x="51" width="17" height="21" rx="1" fill="#e4e4f2" />
-                      <path
-                        d="M0 6C8.62687 6 6.85075 12.75 17 12.75C27.1493 12.75 25.3731 9 34 9C42.6269 9 42.262 13.875 49 13.875C55.5398 13.875 58.3731 6 67 6"
-                        stroke="url(#paint0_linear_622:13649)" stroke-width="2" stroke-linejoin="round" />
-                      <defs>
-                        <linearGradient id="paint0_linear_622:13649" x1="67" y1="7.96873" x2="1.67368" y2="8.44377"
-                          gradientUnits="userSpaceOnUse">
-                          <stop stop-color="#FFD422" />
-                          <stop offset="1" stop-color="#FF7D05" />
-                        </linearGradient>
-                      </defs>
-                    </svg>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
           </div>
         </div>
       </div>
